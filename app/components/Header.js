@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.iconContainer}>
-      <Image src="/assets/menu.png" alt="Logo" width={30} height={30} />
+      <Image src="/assets/menu.png" alt="Logo" width={50} height={50} />
       </div>
       <div className={styles.logoContainer}>
       <Image src="/assets/logo website-01.png" alt="Logo" width={160} height={80} />
@@ -21,7 +21,7 @@ const Header = () => {
     <i class="fas fa-search"></i>
   </span>
 </div>
-        <Link legacyBehavior href="/">
+        <Link legacyBehavior href="/signin">
           <a className={styles.link2}>Sign in</a>
         </Link>
         <Link legacyBehavior href="/about">

@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap');
+
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -8,18 +10,34 @@
 }
 
 body {
+  font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
   color: rgb(var(--foreground-rgb));
   background-color: rgb(var(--background-rgb));
-  font-family: Arial, Helvetica, sans-serif;
 }
 
-.head_text{
+
+.head_text {
+  font-family: 'Playfair Display', serif;
   color: #0A0C14;
-  font-size: xx-large;
+  font-size: 8rem;
   margin-top: 3rem;
   font-weight: bolder;
-  
 }
+
+.section_text {
+  font-family: 'Playfair Display', serif;
+  color: #0A0C14;
+  font-size: 6rem;
+  margin-top: 3rem;
+  font-weight:bold;
+}
+
+.catch_text {
+  font-family: 'Playfair Display', serif;
+  font-size:medium;
+  font-weight: lighter;
+}
+
 
 .para_text{
   color: #0A0C14;
@@ -33,11 +51,7 @@ body {
   
 }
 
-.catch_text{
-  color: #0A0C14;
-  font-size: larger;
-  font-weight: lighter;
-}
+
 
 .conta {
   width: 100%;
@@ -58,6 +72,12 @@ body {
   border-radius: 5px;
 }
 
+
+.custom-object-position {
+  object-position: 50% 25%; /* Adjust the vertical position (20% from the top) */
+}
+
+
 .circle-img {
   width: 400px;
   height: 400px;
@@ -76,7 +96,7 @@ body {
 
 .card-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
   max-width: 740px;
   margin: 0 auto;

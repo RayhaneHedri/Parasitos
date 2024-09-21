@@ -6,6 +6,12 @@
   padding: 1rem;
 }
 
+.rounded {
+  border-radius: 0.25rem /* 4px */;
+  border: 1px;
+  border-color: #032D68;
+}
+
 .iconContainer {
   display: flex;
   align-items: center;
