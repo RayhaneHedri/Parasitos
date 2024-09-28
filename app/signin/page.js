@@ -1,11 +1,12 @@
+import Link from "next/link";
 import React from "react";
 
 export default function signin() {
   return (
     <section className="conta flex-center flex-col w-full">
-      <h1 className="head_text">Sign in to your PARASITOS account</h1>
-      <h3 className="para_text">No account yet?</h3>{" "}
-      <h3 className="para_text2">Create one!</h3>
+      <h3 className="section_text2">Sign in to your PARASITOS account</h3>
+      <h3 className="para_text">No account yet?</h3>
+      <Link href="/" className="para_text2">Create one!</Link>
       <button type="button" class="login-with-google-btn">
         Sign in with Google
       </button>
@@ -27,7 +28,7 @@ export default function signin() {
               class="input"
               data-type="password"
             />
-            <a className="forgot_pwd">Forgot password?</a>
+            <Link href="/" className="forgot_pwd">Forgot password?</Link>
             <input type="submit" class="button" value="Sign In"></input>
           </div>
         </div>

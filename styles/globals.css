@@ -30,6 +30,16 @@ body {
   font-size: 6rem;
   margin-top: 3rem;
   font-weight:bold;
+  text-align: center; 
+}
+
+.section_text2 {
+  font-family: 'Playfair Display', serif;
+  color: #0A0C14;
+  font-size: 4rem;
+  margin-top: 3rem;
+  font-weight:bold;
+  text-align: center; 
 }
 
 .catch_text {

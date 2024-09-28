@@ -6,12 +6,6 @@
   padding: 1rem;
 }
 
-.rounded {
-  border-radius: 0.25rem /* 4px */;
-  border: 1px;
-  border-color: #032D68;
-}
-
 .iconContainer {
   display: flex;
   align-items: center;
@@ -50,4 +44,35 @@
 .header {
   /* other rules */
   border-bottom: 1px solid #cbcbcb; /* change the color according to your design */
+}
+
+.search-container {
+  border: 2px solid #000000 !important; /* Ensures border is applied */
+  border-radius: 25px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+
+.search-input {
+  border: none; /* Remove default border */
+  padding: 10px; /* Add padding for better spacing */
+  width: 100%;
+}
+
+.search-icon {
+  background-color: #f0f0f0; /* Add background to the icon */
+  padding: 0 15px; /* Add padding to the icon span */
+  cursor: pointer;
+}
+
+.search-icon i {
+  color: #333; /* Icon color */
+}
+
+.search-input:focus {
+  outline: none; /* Remove default focus outline */
+  box-shadow: none; /* No shadow */
 }
