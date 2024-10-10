@@ -2,7 +2,7 @@ import React from "react";
 import styles from'./card.module.css';
 
 
-const Card = ({ title, image, path }) => {
+const Card = ({ title, image, path, children }) => {
   return (
     <div>
       <a>
@@ -14,7 +14,7 @@ const Card = ({ title, image, path }) => {
           </div>
           <div className={styles.cardContent}>
             <p className={styles.cardTitle}>{title}</p>
-            
+            {children && <div className={styles.cardChildren}>{children}</div>} {/* Render children here */}
           </div>
         </div>
       </a>

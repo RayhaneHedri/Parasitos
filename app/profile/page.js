@@ -68,8 +68,17 @@ export default function profile() {
 
       <div className="flex flex-col pl-72 mt-20 mb-20 w-4/5">
         <h3 className="catch_text">Your favorite articles</h3>
-
-        <button className="primary_btn self-end mt-4">Submit</button>
+        <div className="w-full h-40 flex justify-center items-center mt-3 rounded-2xl bg-gray-900/10 p-4">
+          <h3 className="text-center font-bold text-gray-400">No Articles Yet</h3>
+        </div>
+        <button className="primary_btn self-end mt-4">Visit articles</button>
+      </div>
+      <div className="flex flex-col pl-72 mt-20 mb-20 w-4/5">
+        <h3 className="catch_text">Your Cart</h3>
+        <div className="w-full h-40 flex justify-center items-center mt-3 rounded-2xl bg-gray-900/10 p-4">
+          <h3 className="text-center font-bold text-gray-400">No Products Yet</h3>
+        </div>
+        <button className="primary_btn self-end mt-4">Visit articles</button>
       </div>
     </div>
   );

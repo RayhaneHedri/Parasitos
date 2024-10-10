@@ -42,11 +42,52 @@ body {
   text-align: center; 
 }
 
+.red_text2 {
+  font-family: 'Playfair Display', serif;
+  color: #A10B0C;
+  font-size: 3rem;
+  margin-top: 3rem;
+  font-weight:bold;
+  text-align: center; 
+}
+
 .catch_text {
   font-family: 'Playfair Display', serif;
   font-size:medium;
   font-weight: lighter;
 }
+
+.paragraph_text {
+  font-family: 'Playfair Display', serif;
+  color: #0A0C14;
+  font-size:large;
+  font-weight:lighter;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.paragraph_text b {
+  font-weight: bold;
+}
+
+.paragraph_text2 {
+  font-family: 'Playfair Display', serif;
+  color: #0A0C14;
+  font-size:large;
+  font-weight:lighter;
+  
+}
+
+.quote_text {
+  font-family: 'tangerine', serif;
+  font-size:2rem;
+  font-weight: lighter;
+  color: #A10B0C;
+  margin-top: 2rem;
+}
+
 
 
 .para_text{
@@ -79,6 +120,27 @@ body {
   background-color: #A10B0C;
   color: white;
   border: none;
+  border-radius: 5px;
+}
+
+.blue_btn {
+  padding: 5px 30px;
+  font-size: 14px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  background-color: #032D68;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.blue_btn2 {
+  padding: 5px 30px;
+  font-size: 14px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  background-color: #032d6800;
+  border:2px solid  #032D68;
   border-radius: 5px;
 }
 
